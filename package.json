@@ -1,4 +1,5 @@
 {
+  "homepage": "https://HMilix.github.io/monculsurlacommode/",
   "name": "monculsurlacommode",
   "private": true,
   "version": "0.0.0",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "npm run deploy"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "gh-pages": "^6.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
